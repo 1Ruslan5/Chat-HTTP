@@ -1,0 +1,7 @@
+# Node artifact files
+build/
+coverage/
+dist/
+node_modules/
+src/uploads
+.env
