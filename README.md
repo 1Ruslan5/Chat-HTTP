@@ -31,6 +31,7 @@ A minimalist HTTP-based chat service built with **Fastify**, **PostgreSQL**, and
 
 ## Project Structure
 
+``` bash
 ├── docker/                         # Docker-related files
 │   └── docker-compose.yml
 │
@@ -64,7 +65,7 @@ A minimalist HTTP-based chat service built with **Fastify**, **PostgreSQL**, and
 ├── package.json                    # npm / pnpm metadata & scripts
 ├── pnpm-lock.yaml                  # pnpm lockfile
 └── README.md                       # Project overview and setup instructions
-
+```
 ---
 
 ## Prerequisites
@@ -85,6 +86,7 @@ pnpm install
 
 ### 2. Database Setup
 
+Beforre setup copy `.env` [Environment Variables](#environment-variables)
 Start PostgreSQL in Docker:
 
 ```bash
