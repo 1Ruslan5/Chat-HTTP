@@ -86,7 +86,8 @@ pnpm install
 
 ### 2. Database Setup
 
-Beforre setup copy `.env` [Environment Variables](#environment-variables)
+Before setup copy `.env` [Environment Variables](#environment-variables)
+
 Start PostgreSQL in Docker:
 
 ```bash
